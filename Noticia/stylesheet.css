@@ -1,0 +1,127 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.geral{
+    display: grid;
+    grid-template-columns:450px 1500px ;
+    grid-gap: 10px;
+}
+
+.bloco1{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco2{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.texto{
+    flex-direction: column;
+    display: flex;
+}
+
+.texto_bloco1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 200%;
+}
+
+.texto_1_bloco2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 60%;
+}
+
+.texto_2_bloco2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.texto_3_bloco2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.operacao{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.debates{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.tx{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.img_b2{
+    width: 150px;
+    height: 100px;
+}
+
+.bloco1:before{
+    content: "MEIO AMBIENTE";
+    font-size: 13px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    width: 115px;
+    height: 17px;
+    text-align: center;
+    color: white;
+    left: 0px;
+    top: 280px;
+}
+
+.titulo{
+    border-top: 1px solid black;
+    padding-top: 20px;
+
+}
+
+ hr{
+    content: "\a";
+    position: relative;
+    background-color: red;
+    width: 120px;
+    height: 7px;
+    top: 30px;
+    margin: 0px;
+ }
+
+ .hr1{
+    position: relative;
+    background-color:rgb(97, 87, 87);
+    width: 550px;
+    height: 1px;
+    top: 7px;
+    margin: 0px;
+    border: 0;
+ }
+
+ .hr2{
+    width: 1px;
+    height: 370px;
+    background-color:rgb(97, 87, 87);
+    position: absolute;
+    left: 332px;
+    border: 0;
+    margin: 115px;
+ }
